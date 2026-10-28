@@ -953,8 +953,6 @@ svg {
   font-size: 8px;
 }
 
-/* EDUCATION TIMELINE */
-
 .journey-section {
   background: linear-gradient(
     180deg,
@@ -1049,8 +1047,6 @@ svg {
   padding: 4px 7px;
   border-radius: 4px;
 }
-
-/* PROJECT CARDS */
 
 .project-grid {
   display: grid;
@@ -1190,9 +1186,6 @@ svg {
   color: #8199b7;
   margin-top: 20px;
 }
-
-/* CAREER GOAL */
-
 .goal-band {
   border-block: 1px solid #45a4ff2a;
   background: linear-gradient(110deg, #0d2b4b, #0a1e35 62%, #20162c);
@@ -1247,9 +1240,7 @@ svg {
   font-size: 13px;
   line-height: 1.8;
 }
-/* ===== EXTRA PREMIUM ANIMATIONS ===== */
 
-/* Hero title entrance */
 .hero-title.title-animated {
   animation: nameEntrance 1.15s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -1263,7 +1254,7 @@ svg {
   animation: outlineReveal 1.2s ease 0.25s both;
 }
 
-/* Hero text entrance */
+
 .hero-copy .eyebrow {
   animation: nameEntrance 0.7s ease both;
 }
@@ -1309,7 +1300,6 @@ svg {
   }
 }
 
-/* Button click feedback */
 .button.click-feedback,
 .project-link.click-feedback {
   animation: clickPulse 0.3s ease;
@@ -1321,7 +1311,7 @@ svg {
   }
 }
 
-/* Photo hover enhancement */
+
 .portrait-card {
   transition: box-shadow 0.4s ease, border-color 0.4s ease;
 }
@@ -1331,7 +1321,7 @@ svg {
   box-shadow: 0 25px 80px #0006, 0 0 35px #45a4ff25;
 }
 
-/* Skill cards and project hover */
+
 .skills-panel,
 .contact-card,
 .timeline-card {
@@ -1346,7 +1336,7 @@ svg {
   box-shadow: 0 12px 35px #0002;
 }
 
-/* Better focus for keyboard users */
+
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid #45a4ff;
@@ -1354,7 +1344,7 @@ button:focus-visible {
   border-radius: 5px;
 }
 
-/* Prevent extra motion when reduced motion is enabled */
+
 @media (prefers-reduced-motion: reduce) {
   .hero-title.title-animated,
   .hero-title.title-animated > span:first-child,
@@ -1366,7 +1356,7 @@ button:focus-visible {
   }
 }
 
-/* ===== PROFESSIONAL CONTACT CARDS ===== */
+
 
 .contact-section {
   padding-top: 100px;
@@ -1454,7 +1444,7 @@ button:focus-visible {
   transform: translate(3px, -3px);
 }
 
-/* ===== CLEAN PROFESSIONAL FOOTER ===== */
+
 
 .footer {
   display: grid;
@@ -1493,7 +1483,7 @@ button:focus-visible {
   text-align: right;
 }
 
-/* ===== MOBILE RESPONSIVE FIX ===== */
+
 
 @media (max-width: 600px) {
   .contact-section {
